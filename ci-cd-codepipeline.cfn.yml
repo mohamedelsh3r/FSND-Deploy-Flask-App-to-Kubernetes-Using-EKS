@@ -87,19 +87,19 @@ Metadata:
           - EksClusterName
     ParameterLabels:
       GitHubUser:
-        default: Username
+        default: mohamedelsh3r
       GitHubToken:
         default: Access token
       GitSourceRepo:
-        default: Repository
+        default: https://github.com/mohamedelsh3r/FSND-Deploy-Flask-App-to-Kubernetes-Using-EKS
       GitBranch:
         default: Branch
       CodeBuildDockerImage:
         default: Docker image
       KubectlRoleName:
-        default: kubectl IAM role
+        default: UdacityFlaskDeployCBKubectlRole
       EksClusterName:
-        default: EKS cluster name
+        default: simple-jwt-api-3
 
 
 Resources:
